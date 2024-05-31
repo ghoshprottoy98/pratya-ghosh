@@ -568,6 +568,30 @@
     background-color: #00695c !important;
   } */
   
+  .contact-card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.btn {
+    padding: 5px 10px;
+    background-color: #21649b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+  
   @media (min-width: 1200px) {
     #experience .container {
       width: 860px;
